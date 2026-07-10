@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- 修改这里：浏览器标签页标题 -->
+    <title>你的名字 · 个人主页</title>
+    <!-- 修改这里：搜索引擎描述 -->
+    <meta name="description" content="你的名字的个人主页 —— 链接聚合与第二大脑博客入口。" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- 右上角固定按钮：跳转到 Quartz 博客（任务 2 部署的站点） -->
+    <a class="top-btn" href="https://blog.fengx.eu.org" target="_blank" rel="noopener">博客 ↗</a>
+
+    <main class="card">
+      <!-- 头像：当前用首字母占位，可替换成 <img src="avatar.jpg" alt="头像" /> -->
+      <div class="avatar" aria-hidden="true">你</div>
+
+      <!-- 修改这里：你的名字 -->
+      <h1>你的名字</h1>
+      <!-- 修改这里：一句话简介 -->
+      <p class="tagline">一句话简介，写在这里。热爱折腾 / 记录 / 分享。</p>
+
+      <nav class="links">
+        <!-- 按需增删下面的链接按钮 -->
+        <a class="link" href="https://blog.fengx.eu.org" target="_blank" rel="noopener">📝 博客</a>
+        <a class="link" href="https://github.com/" target="_blank" rel="noopener">💻 GitHub</a>
+        <a class="link" href="https://x.com/" target="_blank" rel="noopener">✈️ Twitter / X</a>
+        <a class="link" href="mailto:you@example.com">✉️ 邮箱</a>
+      </nav>
+
+      <footer class="foot">© <span id="year"></span> 你的名字</footer>
+    </main>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
