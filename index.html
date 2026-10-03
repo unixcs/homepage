@@ -1,40 +1,111 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- 修改这里：浏览器标签页标题 -->
-    <title>你的名字 · 个人主页</title>
-    <!-- 修改这里：搜索引擎描述 -->
-    <meta name="description" content="你的名字的个人主页 —— 链接聚合与第二大脑博客入口。" />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <!-- 右上角固定按钮：跳转到 Quartz 博客（任务 2 部署的站点） -->
-    <a class="top-btn" href="https://blog.fengx.eu.org" target="_blank" rel="noopener">博客 ↗</a>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Feng · 个人开发者</title>
+<meta name="description" content="Feng，个人开发者：微信小程序、门店预约系统、进销存定制。代表作：陪玩小程序、预约到店、酒厂进销存。">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="nav">
+  <span class="logo">Feng<span class="dot">.</span></span>
+  <nav>
+    <a href="#services">服务</a>
+    <a href="#works">作品</a>
+    <a href="#blog">博客</a>
+    <a href="#contact">联系</a>
+  </nav>
+</header>
 
-    <main class="card">
-      <!-- 头像：当前用首字母占位，可替换成 <img src="avatar.jpg" alt="头像" /> -->
-      <div class="avatar" aria-hidden="true">你</div>
+<section class="hero">
+  <p class="kicker">个人开发者 · 接单中</p>
+  <h1>把想法做成<br>能用的产品<span class="dot">.</span></h1>
+  <p class="sub">微信小程序 · 门店预约系统 · 进销存与结算定制。<br>从手机端下单到商家后台，一整套打通。</p>
+  <div class="cta">
+    <a class="btn primary" href="#contact">立即联系</a>
+    <a class="btn" href="https://blog.fengx.eu.org" target="_blank" rel="noopener">📝 我的博客</a>
+  </div>
+  <div class="social">
+    <a href="https://github.com/unixcs" target="_blank" rel="noopener">GitHub</a>
+    <a href="https://x.com/" target="_blank" rel="noopener">X</a>
+    <a href="mailto:hello@fengx.eu.org">邮箱</a>
+  </div>
+</section>
 
-      <!-- 修改这里：你的名字 -->
-      <h1>你的名字</h1>
-      <!-- 修改这里：一句话简介 -->
-      <p class="tagline">一句话简介，写在这里。热爱折腾 / 记录 / 分享。</p>
+<section id="services" class="block">
+  <h2>接单服务</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>微信小程序定制</h3>
+      <p>陪玩、商城、预约类小程序：注册备案、微信支付、审核过审全包。</p>
+      <span class="tag">小程序 · 支付 · 过审</span>
+    </div>
+    <div class="card">
+      <h3>门店预约到店系统</h3>
+      <p>手机端预约下单 + 商家后台看板，预约、核销、消息通知完整闭环。</p>
+      <span class="tag">H5 · 后台 · 通知</span>
+    </div>
+    <div class="card">
+      <h3>进销存 + 结算定制</h3>
+      <p>生产销售打通、客户订货、积分与结算系统，报表导出开箱即用。</p>
+      <span class="tag">进销存 · 积分 · 报表</span>
+    </div>
+  </div>
+</section>
 
-      <nav class="links">
-        <!-- 按需增删下面的链接按钮 -->
-        <a class="link" href="https://blog.fengx.eu.org" target="_blank" rel="noopener">📝 博客</a>
-        <a class="link" href="https://github.com/" target="_blank" rel="noopener">💻 GitHub</a>
-        <a class="link" href="https://x.com/" target="_blank" rel="noopener">✈️ Twitter / X</a>
-        <a class="link" href="mailto:you@example.com">✉️ 邮箱</a>
-      </nav>
+<section id="works" class="block">
+  <h2>代表作品</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>🎮 陪玩小程序</h3>
+      <p>为客户定制：服务商品、订单抢单、结算系统，类目合规包装过审。</p>
+      <span class="tag">已交付</span>
+    </div>
+    <div class="card">
+      <h3>🏪 实体店预约到店</h3>
+      <p>用户手机预约下单，商家后台实时查看预约消息，预约到店全流程。</p>
+      <span class="tag">已交付</span>
+    </div>
+    <div class="card">
+      <h3>🍶 酒厂进销存</h3>
+      <p>客户订货 H5 + 后台确认收款，引荐积分自动发放，140 项 E2E 全过。</p>
+      <span class="tag">迭代中</span>
+    </div>
+  </div>
+</section>
 
-      <footer class="foot">© <span id="year"></span> 你的名字</footer>
-    </main>
+<section id="blog" class="block">
+  <h2>博客精选</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>📦 E900V22E 刷 armbian</h3>
+      <p>1.6 万阅读：破解、刷桌面、解决网卡驱动、刷安卓 TV 全记录。</p>
+      <a href="https://blog.fengx.eu.org/migrated/e900v22e-armbian-android-tv" target="_blank" rel="noopener">阅读 →</a>
+    </div>
+    <div class="card">
+      <h3>📶 随身 WiFi 备份篇</h3>
+      <p>1 万阅读：QCN 基带、miko 救砖包、QPT 分区备份还原。</p>
+      <a href="https://blog.fengx.eu.org/migrated/suishen-wifi-backup" target="_blank" rel="noopener">阅读 →</a>
+    </div>
+    <div class="card">
+      <h3>✅ 青龙自动签到踩坑</h3>
+      <p>1.4 万阅读：依赖报错、cookie 转义、防封定时策略。</p>
+      <a href="https://blog.fengx.eu.org/migrated/qinglong-auto-checkin" target="_blank" rel="noopener">阅读 →</a>
+    </div>
+  </div>
+  <p class="more"><a href="https://blog.fengx.eu.org" target="_blank" rel="noopener">全部文章 →</a></p>
+</section>
 
-    <script>
-      document.getElementById("year").textContent = new Date().getFullYear();
-    </script>
-  </body>
+<section id="contact" class="block">
+  <h2>联系我</h2>
+  <p class="sub">有项目想做？先说需求，我给你出方案和周期。</p>
+  <div class="cta">
+    <a class="btn primary" href="mailto:hello@fengx.eu.org">✉️ hello@fengx.eu.org</a>
+    <a class="btn" href="https://github.com/unixcs" target="_blank" rel="noopener">GitHub @unixcs</a>
+  </div>
+</section>
+
+<footer>© 2026 Feng · <a href="https://blog.fengx.eu.org">博客</a> · <a href="https://github.com/unixcs">GitHub</a></footer>
+</body>
 </html>
