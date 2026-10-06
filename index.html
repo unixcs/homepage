@@ -3,109 +3,308 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Feng · 个人开发者</title>
-<meta name="description" content="Feng，个人开发者：微信小程序、门店预约系统、进销存定制。代表作：陪玩小程序、预约到店、酒厂进销存。">
+<title>Feng · 个人开发者 | 微信小程序 · 门店系统 · 进销存结算定制</title>
+<meta name="description" content="Feng，全栈独立开发者：微信小程序、门店预约系统、进销存与分销结算定制。8 年独立开发，6+ 系统交付在营，技术文章 5w+ 阅读。从需求到上线，一个人打通全链路。">
+<meta property="og:title" content="Feng · 个人开发者">
+<meta property="og:description" content="把想法做成能用的产品：微信小程序 / 门店系统 / 进销存结算，全链路独立交付。">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://fengx.eu.org/">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230a0e14'/%3E%3Ctext x='32' y='44' font-size='36' font-family='Georgia,serif' font-weight='700' fill='%234f8cff' text-anchor='middle'%3EF%3C/text%3E%3C/svg%3E">
 <link rel="stylesheet" href="styles.css">
+<script>document.documentElement.classList.add('js')</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Person","name":"Feng","url":"https://fengx.eu.org/","jobTitle":"个人开发者","description":"微信小程序、门店预约系统、进销存结算定制","sameAs":["https://github.com/unixcs","https://x.com/unixcs"]}
+</script>
 </head>
 <body>
-<header class="nav">
-  <span class="logo">Feng<span class="dot">.</span></span>
-  <nav>
-    <a href="#services">服务</a>
-    <a href="#works">作品</a>
-    <a href="#blog">博客</a>
-    <a href="#contact">联系</a>
-  </nav>
+
+<header class="nav" id="nav">
+  <div class="wrap nav-in">
+    <a class="logo" href="#top">Feng<span class="dot">.</span></a>
+    <nav>
+      <a href="#services">服务</a>
+      <a href="#works">作品</a>
+      <a href="#stack">技术</a>
+      <a href="#process">流程</a>
+      <a href="#blog">博客</a>
+    </nav>
+    <a class="btn primary sm" href="#contact">联系我</a>
+  </div>
 </header>
 
+<main id="top">
+
+<!-- ======================= HERO ======================= -->
 <section class="hero">
-  <p class="kicker">个人开发者 · 接单中</p>
-  <h1>把想法做成<br>能用的产品<span class="dot">.</span></h1>
-  <p class="sub">微信小程序 · 门店预约系统 · 进销存与结算定制。<br>从手机端下单到商家后台，一整套打通。</p>
-  <div class="cta">
-    <a class="btn primary" href="#contact">立即联系</a>
-    <a class="btn" href="https://blog.fengx.eu.org" target="_blank" rel="noopener">📝 我的博客</a>
-  </div>
-  <div class="social">
-    <a href="https://github.com/unixcs" target="_blank" rel="noopener">GitHub</a>
-    <a href="https://x.com/" target="_blank" rel="noopener">X</a>
-    <a href="mailto:hello@fengx.eu.org">邮箱</a>
+  <div class="wrap">
+    <p class="kicker">个人开发者 · 全栈独立交付 · <span class="ok">接单中</span></p>
+    <h1>把想法做成<br><span class="grad">能用的产品</span><span class="dot">.</span></h1>
+    <p class="sub">微信小程序 · 门店系统 · 进销存与结算定制。<br>
+    从需求梳理、开发上线到支付与合规，<b>一个人从头打通</b>，不做二道贩子。</p>
+    <div class="cta">
+      <a class="btn primary" href="#contact">聊聊你的项目</a>
+      <a class="btn" href="#works">看代表作品</a>
+    </div>
+    <div class="social">
+      <a href="https://github.com/unixcs" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://x.com/unixcs" target="_blank" rel="noopener">X</a>
+      <a href="https://blog.fengx.eu.org" target="_blank" rel="noopener">博客</a>
+      <a href="mailto:hello@fengx.eu.org">邮箱</a>
+    </div>
   </div>
 </section>
 
+<!-- ======================= 数据带 ======================= -->
+<section class="stats">
+  <div class="wrap stats-in">
+    <div class="stat"><b>8<span>年</span></b><i>独立开发与折腾</i></div>
+    <div class="stat"><b>6<span>+</span></b><i>系统交付在营</i></div>
+    <div class="stat"><b>5w<span>+</span></b><i>技术文章累计阅读</i></div>
+    <div class="stat"><b>140<span>+</span></b><i>单项目自动化 E2E 用例</i></div>
+  </div>
+</section>
+
+<!-- ======================= 服务 ======================= -->
 <section id="services" class="block">
-  <h2>接单服务</h2>
-  <div class="cards">
-    <div class="card">
-      <h3>微信小程序定制</h3>
-      <p>陪玩、商城、预约类小程序：注册备案、微信支付、审核过审全包。</p>
-      <span class="tag">小程序 · 支付 · 过审</span>
-    </div>
-    <div class="card">
-      <h3>门店预约到店系统</h3>
-      <p>手机端预约下单 + 商家后台看板，预约、核销、消息通知完整闭环。</p>
-      <span class="tag">H5 · 后台 · 通知</span>
-    </div>
-    <div class="card">
-      <h3>进销存 + 结算定制</h3>
-      <p>生产销售打通、客户订货、积分与结算系统，报表导出开箱即用。</p>
-      <span class="tag">进销存 · 积分 · 报表</span>
+  <div class="wrap">
+    <p class="eyebrow">接单服务</p>
+    <h2>三个方向，<span class="grad">一条龙交付</span></h2>
+    <div class="cards three">
+
+      <div class="card">
+        <div class="card-ico">📱</div>
+        <h3>微信小程序定制开发</h3>
+        <p>陪玩、商城、预约类小程序。从注册备案、类目合规包装，到微信支付 APIv3、虚拟支付、审核过审——这些坑我全部踩平过，一次过审上线。</p>
+        <ul class="ticks">
+          <li>小程序端 + 管理后台 + 支付，一套交付</li>
+          <li>企业认证 / 备案 / 类目合规全包</li>
+          <li>上线后可持续迭代</li>
+        </ul>
+        <span class="chips"><i>uni-app</i><i>微信支付</i><i>合规过审</i></span>
+      </div>
+
+      <div class="card">
+        <div class="card-ico">🏪</div>
+        <h3>门店预约到店系统</h3>
+        <p>客户手机预约下单，商家后台实时接单、核销、结算。散客/会员卡/改期/闭店设置全考虑，实体店开箱即用的无纸化经营。</p>
+        <ul class="ticks">
+          <li>预约 / 核销二维码 / 结算 闭环</li>
+          <li>会员卡与消费账本</li>
+          <li>手机端深度适配，扫码即用</li>
+        </ul>
+        <span class="chips"><i>H5</i><i>商家后台</i><i>核销结算</i></span>
+      </div>
+
+      <div class="card">
+        <div class="card-ico">🏭</div>
+        <h3>进销存 / 分销结算定制</h3>
+        <p>生产销售一体化：客户订货 H5、引荐积分、多级分销结算。不可变账本可审计，合规档位可开关，报表导出开箱即用。</p>
+        <ul class="ticks">
+          <li>订货 / 积分 / 结算 / 冲正全链路</li>
+          <li>账本不可变，风控熔断内置</li>
+          <li>自动化 E2E 护航，改版不炸</li>
+        </ul>
+        <span class="chips"><i>Go</i><i>账本引擎</i><i>E2E 140+</i></span>
+      </div>
+
     </div>
   </div>
 </section>
 
+<!-- ======================= 代表作品 ======================= -->
 <section id="works" class="block">
-  <h2>代表作品</h2>
-  <div class="cards">
-    <div class="card">
-      <h3>🎮 陪玩小程序</h3>
-      <p>为客户定制：服务商品、订单抢单、结算系统，类目合规包装过审。</p>
-      <span class="tag">已交付</span>
-    </div>
-    <div class="card">
-      <h3>🏪 实体店预约到店</h3>
-      <p>用户手机预约下单，商家后台实时查看预约消息，预约到店全流程。</p>
-      <span class="tag">已交付</span>
-    </div>
-    <div class="card">
-      <h3>🍶 酒厂进销存</h3>
-      <p>客户订货 H5 + 后台确认收款，引荐积分自动发放，140 项 E2E 全过。</p>
-      <span class="tag">迭代中</span>
+  <div class="wrap">
+    <p class="eyebrow">代表作品</p>
+    <h2>真实上线，<span class="grad">真实在营</span></h2>
+    <p class="lead">以下均为已交付客户的生产系统（截图经客户信息脱敏）。出于客户隐私保护，不挂线上地址，细节可当面聊。</p>
+
+    <!-- 案例 1：观星电竞 -->
+    <article class="work">
+      <div class="work-txt">
+        <p class="work-tag">游戏陪玩 · 小程序 + 商城后台 · <span class="pill-ok">已交付 · 在营</span></p>
+        <h3>观星电竞 — 陪玩服务交易闭环</h3>
+        <p class="work-sum">把「陪玩服务」做成标准商品：用户在小程序下单支付，商家在后台一站式运营。对局复盘、一对一指导按件计价，钱包、优惠券、订单中心全套打通。</p>
+        <ul class="ticks">
+          <li><b>uni-app 一码双端</b>：微信小程序 + H5 同一套代码，服务商品化、下单支付、订单中心全闭环</li>
+          <li><b>合规硬闸</b>：接入阿里云实人认证与风控 SDK，「未成年人禁止下单」强制校验——陪玩类目能过审靠的就是这套包装</li>
+          <li><b>商城后台 2.0</b>：销售额/订单/会员数据看板、优惠券营销、售后管理、七日交易走势，运营开箱即用</li>
+          <li><b>资金链路</b>：钱包充值、账单明细、充值记录逐笔可查</li>
+        </ul>
+        <span class="chips"><i>uni-app</i><i>Vue2 + Vuex</i><i>Vite</i><i>PHP (ThinkPHP)</i><i>微信支付</i><i>阿里云实人认证</i><i>七牛云</i></span>
+      </div>
+      <div class="work-shots" data-lb>
+        <a href="assets/works/guanxing-app-1.webp" class="shot phone" aria-label="观星电竞小程序分类页"><img src="assets/works/guanxing-app-1.webp" alt="观星电竞小程序：陪玩服务分类页，未成年禁止下单合规标识" loading="lazy"></a>
+        <a href="assets/works/guanxing-admin-home.webp" class="shot desktop" aria-label="观星商城后台首页"><img src="assets/works/guanxing-admin-home.webp" alt="观星商城后台：销售额/订单/会员运营看板" loading="lazy"></a>
+        <a href="assets/works/guanxing-admin-orders.webp" class="shot desktop" aria-label="观星商城后台订单管理"><img src="assets/works/guanxing-admin-orders.webp" alt="观星商城后台：订单管理界面" loading="lazy"></a>
+      </div>
+    </article>
+
+    <!-- 案例 2：Anmo -->
+    <article class="work rev">
+      <div class="work-txt">
+        <p class="work-tag">实体门店 · 预约到店系统 · <span class="pill-ok">已交付 · 在营</span></p>
+        <h3>Anmo 安摩 — 到店按摩无纸化经营</h3>
+        <p class="work-sum">客人手机上选服务、选时段，到店出示核销码；老板后台接单、改期、结算、闭店，一条流水线。开店半年，预约-核销-结算全流程没碰过一张纸。</p>
+        <ul class="ticks">
+          <li><b>预约动线</b>：模糊时段预约（上午/下午，店主统一安排）、身体状况备注、休息时段自动不可选</li>
+          <li><b>核销闭环</b>：到店出示二维码扫码登记，防截图外传提示内置</li>
+          <li><b>会员卡体系</b>：次卡开卡、按次核销、消费明细逐笔入账</li>
+          <li><b>商家后台</b>：今日工作台 / 预约管理（改期·取消·散客结算·闭店设置）/ 会员卡 / 服务与标签管理 / 运营洞察</li>
+        </ul>
+        <span class="chips"><i>Vue 3</i><i>Vite</i><i>REST API</i><i>二维码核销</i><i>会员卡系统</i><i>移动端适配</i></span>
+      </div>
+      <div class="work-shots" data-lb>
+        <a href="assets/works/anmo-app-services.webp" class="shot phone" aria-label="Anmo 服务项目页"><img src="assets/works/anmo-app-services.webp" alt="Anmo 安摩小程序：服务项目与预约入口" loading="lazy"></a>
+        <a href="assets/works/anmo-booking.webp" class="shot phone" aria-label="Anmo 预约页"><img src="assets/works/anmo-booking.webp" alt="Anmo 安摩：服务预约页" loading="lazy"></a>
+        <a href="assets/works/anmo-admin-appointments.webp" class="shot desktop" aria-label="Anmo 后台预约管理"><img src="assets/works/anmo-admin-appointments.webp" alt="Anmo 商家后台：预约管理，结算/改期/核销/闭店设置" loading="lazy"></a>
+      </div>
+    </article>
+
+    <!-- 案例 3：酒厂 -->
+    <article class="work">
+      <div class="work-txt">
+        <p class="work-tag">传统企业数字化 · 官网 + 订货结算 · <span class="pill-warn">迭代中</span></p>
+        <h3>29 年老酒厂 — 品牌官网 + 进销存结算</h3>
+        <p class="work-sum">一家 1997 年创立的银杏养生酒厂：对外，纯手写品牌官网承接全国招商线索；对内，一台服务器跑起客户订货、引荐积分、多级分销结算——传统生意第一次有了数字化底座。</p>
+        <ul class="ticks">
+          <li><b>品牌官网零框架手写</b>：定制 SVG 视觉 + 滚动叙事 + SEO 关键词布局，水墨金韵气质和酒厂调性一致，直接承接招商电话</li>
+          <li><b>Go 单二进制进销存</b>：客户订货 H5、商品图文 CMS、订单确认收款，一台 Windows 内网机部署，零依赖</li>
+          <li><b>分销结算引擎</b>：引荐积分直接/拓展/战略三通道、拨比熔断、不可变账本只走反向冲正、配置版本化——钱上的事，每一分可审计</li>
+          <li><b>工程质量</b>：140 项自动化 E2E 全绿、发布前 VACUUM 快照、原子换名部署、一键回滚；合规档位一键切换（三级分销合规压线设计）</li>
+        </ul>
+        <span class="chips"><i>Go (Gin)</i><i>SQLite</i><i>Vue 3</i><i>Element Plus</i><i>go:embed</i><i>原子部署</i><i>E2E 自动化</i></span>
+      </div>
+      <div class="work-shots" data-lb>
+        <a href="assets/works/jiuchang-home.webp" class="shot desktop" aria-label="酒厂品牌官网首页"><img src="assets/works/jiuchang-home.webp" alt="酒厂品牌官网：千年古银杏 百岁国树酒 首页" loading="lazy"></a>
+        <a href="assets/works/jiuchang-home-2.webp" class="shot desktop" aria-label="酒厂官网产品页"><img src="assets/works/jiuchang-home-2.webp" alt="酒厂官网产品展示页" loading="lazy"></a>
+        <a href="assets/works/jiuchang-brand.webp" class="shot desktop" aria-label="酒厂官网品牌页"><img src="assets/works/jiuchang-brand.webp" alt="酒厂官网匠心工艺品牌页" loading="lazy"></a>
+      </div>
+    </article>
+
+    <!-- 自研系统 -->
+    <div class="mini">
+      <p class="mini-t">自研系统 —— 我用 AI 流水线开发 AI 产品</p>
+      <div class="mini-in">
+        <div class="mini-card"><b>AIOS 个人主控面板</b><span>Go 单二进制：多面板聚合、项目索引、健康管理、文档中心；GitHub 单源，三台服务器 10 分钟级自动同步。</span></div>
+        <div class="mini-card"><b>AI 视频生产线</b><span>Remotion + TTS 全自动：取材→选题→口播→渲染→QC→发布，日更在跑，双频道运营。</span></div>
+        <div class="mini-card"><b>内容中台</b><span>Obsidian 笔记库 → 博客 → 公众号/视频的一篇多发管线：publish 阀门 + 脱敏扫描 + 自动部署。</span></div>
+      </div>
     </div>
   </div>
 </section>
 
-<section id="blog" class="block">
-  <h2>博客精选</h2>
-  <div class="cards">
-    <div class="card">
-      <h3>📦 E900V22E 刷 armbian</h3>
-      <p>1.6 万阅读：破解、刷桌面、解决网卡驱动、刷安卓 TV 全记录。</p>
-      <a href="https://blog.fengx.eu.org/migrated/e900v22e-armbian-android-tv" target="_blank" rel="noopener">阅读 →</a>
+<!-- ======================= 技术栈 ======================= -->
+<section id="stack" class="block alt">
+  <div class="wrap">
+    <p class="eyebrow">能力范围</p>
+    <h2>技术栈 = <span class="grad">够用且能落地</span></h2>
+    <p class="lead">不追新词，只列真正交付过的。每一项都有上线的系统背书。</p>
+    <div class="stacks">
+      <div class="stack-row"><b>小程序 & 前端</b><span class="chips"><i>uni-app</i><i>Vue 2 / 3</i><i>TypeScript</i><i>Vite</i><i>原生 JS / CSS</i><i>Element Plus</i><i>响应式 / 移动端</i></span></div>
+      <div class="stack-row"><b>后端 & 数据</b><span class="chips"><i>Go / Gin</i><i>PHP (ThinkPHP)</i><i>Node.js</i><i>SQLite / MySQL</i><i>REST API 设计</i><i>不可变账本</i></span></div>
+      <div class="stack-row"><b>微信生态</b><span class="chips"><i>小程序认证备案</i><i>微信支付 APIv3</i><i>虚拟支付</i><i>类目合规</i><i>消息通知</i><i>审核过审</i></span></div>
+      <div class="stack-row"><b>运维 & 工程</b><span class="chips"><i>Linux / systemd</i><i>Cloudflare Pages / Tunnel</i><i>GitHub Actions</i><i>Tailscale 组网</i><i>原子部署 / 快照回滚</i><i>自动化 E2E</i></span></div>
+      <div class="stack-row"><b>AI 工程</b><span class="chips"><i>LLM 应用开发</i><i>多 Agent 工作流</i><i>RAG / 知识库</i><i>Remotion 自动化视频</i><i>AI 辅助交付全流程</i></span></div>
     </div>
-    <div class="card">
-      <h3>📶 随身 WiFi 备份篇</h3>
-      <p>1 万阅读：QCN 基带、miko 救砖包、QPT 分区备份还原。</p>
-      <a href="https://blog.fengx.eu.org/migrated/suishen-wifi-backup" target="_blank" rel="noopener">阅读 →</a>
-    </div>
-    <div class="card">
-      <h3>✅ 青龙自动签到踩坑</h3>
-      <p>1.4 万阅读：依赖报错、cookie 转义、防封定时策略。</p>
-      <a href="https://blog.fengx.eu.org/migrated/qinglong-auto-checkin" target="_blank" rel="noopener">阅读 →</a>
-    </div>
-  </div>
-  <p class="more"><a href="https://blog.fengx.eu.org" target="_blank" rel="noopener">全部文章 →</a></p>
-</section>
-
-<section id="contact" class="block">
-  <h2>联系我</h2>
-  <p class="sub">有项目想做？先说需求，我给你出方案和周期。</p>
-  <div class="cta">
-    <a class="btn primary" href="mailto:hello@fengx.eu.org">✉️ hello@fengx.eu.org</a>
-    <a class="btn" href="https://github.com/unixcs" target="_blank" rel="noopener">GitHub @unixcs</a>
   </div>
 </section>
 
-<footer>© 2026 Feng · <a href="https://blog.fengx.eu.org">博客</a> · <a href="https://github.com/unixcs">GitHub</a></footer>
+<!-- ======================= 交付流程 ======================= -->
+<section id="process" class="block">
+  <div class="wrap">
+    <p class="eyebrow">交付流程</p>
+    <h2>和我合作，<span class="grad">就这么简单</span></h2>
+    <div class="steps">
+      <div class="step"><b>1</b><h4>需求沟通</h4><p>微信或邮件说清你想做什么，1 天内回复可行性。</p></div>
+      <div class="step"><b>2</b><h4>方案报价</h4><p>1-2 天出方案、周期与报价，白纸黑字，不加隐性项。</p></div>
+      <div class="step"><b>3</b><h4>开发交付</h4><p>1-6 周（按复杂度），每周可见进度，中途不改口。</p></div>
+      <div class="step"><b>4</b><h4>上线部署</h4><p>服务器/域名/备案/支付配置全包，交付即可用。</p></div>
+      <div class="step"><b>5</b><h4>售后维护</h4><p>交付后缺陷免费修，长期迭代按需续。</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ======================= 博客精选 ======================= -->
+<section id="blog" class="block alt">
+  <div class="wrap">
+    <p class="eyebrow">博客精选</p>
+    <h2>折腾过的坑，<span class="grad">都写成了文章</span></h2>
+    <div class="cards three">
+      <a class="card post" href="https://blog.fengx.eu.org/migrated/e900v22e-armbian-android-tv" target="_blank" rel="noopener">
+        <h3>📦 E900V22E 刷 armbian & 安卓 TV</h3>
+        <p>1.6 万阅读：破解、刷桌面、解决网卡驱动、全网通安卓 TV 全记录。</p>
+        <span class="more">阅读 →</span>
+      </a>
+      <a class="card post" href="https://blog.fengx.eu.org/migrated/qinglong-auto-checkin" target="_blank" rel="noopener">
+        <h3>✅ 青龙自动签到踩坑</h3>
+        <p>1.4 万阅读：依赖报错、cookie 转义、防封定时策略。</p>
+        <span class="more">阅读 →</span>
+      </a>
+      <a class="card post" href="https://blog.fengx.eu.org/migrated/laptop-server-autostart-screenoff" target="_blank" rel="noopener">
+        <h3>💻 旧笔记本当服务器</h3>
+        <p>通电自启动与真熄屏改造， homemade 家庭服务器方案。</p>
+        <span class="more">阅读 →</span>
+      </a>
+    </div>
+    <p class="more-center"><a class="btn" href="https://blog.fengx.eu.org" target="_blank" rel="noopener">全部文章 →</a></p>
+  </div>
+</section>
+
+<!-- ======================= 联系 ======================= -->
+<section id="contact" class="block contact">
+  <div class="wrap">
+    <p class="eyebrow">联系我</p>
+    <h2>有项目想做？<span class="grad">说需求就行</span></h2>
+    <p class="lead">不用整理成文档，一段话描述清楚你想做什么、给谁用。24 小时内给你可行性回复、方案和周期。</p>
+    <div class="cta">
+      <a class="btn primary" href="mailto:hello@fengx.eu.org">✉️ hello@fengx.eu.org</a>
+      <a class="btn" href="https://github.com/unixcs" target="_blank" rel="noopener">GitHub @unixcs</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap foot-in">
+    <span>© 2026 Feng</span>
+    <span class="foot-note">本站由 AI 协作流水线构建维护 · 交付方式见 <a href="https://blog.fengx.eu.org" target="_blank" rel="noopener">博客</a></span>
+    <span><a href="https://github.com/unixcs" target="_blank" rel="noopener">GitHub</a> · <a href="https://x.com/unixcs" target="_blank" rel="noopener">X</a></span>
+  </div>
+</footer>
+
+<!-- 灯箱 -->
+<div class="lb" id="lb" hidden>
+  <img id="lb-img" src="" alt="">
+  <button class="lb-x" aria-label="关闭">✕</button>
+</div>
+
+<script>
+// 滚动浮现：只隐藏首屏以下的元素；IO 不可用时不影响内容可见
+(function(){
+  if (matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  var els = document.querySelectorAll('.block .card,.work,.step,.stack-row,.stat,.mini-card');
+  if (!('IntersectionObserver' in window)) return;
+  els.forEach(function(el){ if (el.getBoundingClientRect().top > innerHeight*0.92) el.classList.add('pre'); });
+  var io = new IntersectionObserver(function(es){
+    es.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); } });
+  },{threshold:.08,rootMargin:'0px 0px -4% 0px'});
+  els.forEach(function(el){ io.observe(el); });
+})();
+// 灯箱
+(function(){
+  var lb=document.getElementById('lb'),img=document.getElementById('lb-img');
+  document.querySelectorAll('[data-lb] a').forEach(function(a){
+    a.addEventListener('click',function(ev){
+      ev.preventDefault();
+      img.src=a.getAttribute('href'); img.alt=(a.querySelector('img')||{}).alt||'';
+      lb.hidden=false; document.body.style.overflow='hidden';
+    });
+  });
+  function close(){ lb.hidden=true; img.src=''; document.body.style.overflow=''; }
+  lb.addEventListener('click',close);
+  addEventListener('keydown',function(e){ if(e.key==='Escape'&&!lb.hidden) close(); });
+})();
+</script>
 </body>
 </html>
