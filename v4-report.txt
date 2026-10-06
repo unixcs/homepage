@@ -1,0 +1,4 @@
+css-brace-depth=0 negative=0
+desktop overflow={"sw":1440,"cw":1440} contact={"qrLoaded":true,"qrSrc":"assets/wechat-qr.png","links":["mailto:unixcs@qq.com","https://github.com/unixcs","https://x.com/unixcs1"],"secH":771}
+mobile overflow={"sw":390,"cw":390} contact={"qrLoaded":true,"qrSrc":"assets/wechat-qr.png","links":["mailto:unixcs@qq.com","https://github.com/unixcs","https://x.com/unixcs1"],"secH":855}
+done
